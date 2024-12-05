@@ -74,11 +74,17 @@
       color: #FFD700;
       text-decoration: none;
       margin: 10px 0;
-      transition: color 0.3s ease;
+      transition: color 0.3s ease, transform 0.2s ease;
     }
 
     .links a:hover {
       color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .highlighted {
+      font-weight: bold;
+      color: #FF5733;
     }
 
     footer {
@@ -95,9 +101,14 @@
       <h2>Adarsh M Jatti's GitHub</h2>
     </header>
     <p class="username">@AdarshJatti1947</p>
-    <a href="https://github.com/AdarshJatti1947" target="_blank" class="button">Visit GitHub</a>
-    <a href="https://www.linkedin.com/in/adarsh-jatti-5b9333200/" target="_blank">LinkedIn</a>
-    <a href="https://drive.google.com/file/d/1RXa3cm5RDjHPy9uGIFHS2OiOJCP-hWjW/view?usp=sharing" target="_blank">Resume</a>
+    <a href="https://github.com/AdarshJatti1947" target="_blank" class="button highlighted">Visit GitHub</a>
+
+    <!-- Additional Links Section -->
+    <div class="links">
+      <a href="https://www.linkedin.com/in/adarsh-jatti-5b9333200/" target="_blank" class="highlighted">LinkedIn</a>
+      <a href="https://leetcode.com/problemset/" target="_blank" class="highlighted">LeetCode</a>
+      <a href="https://drive.google.com/file/d/1RXa3cm5RDjHPy9uGIFHS2OiOJCP-hWjW/view?usp=sharing" target="_blank" class="highlighted">Resume</a>
+    </div>
   </div>
   <footer>
     <p>Crafted by Adarsh M Jatti</p>
